@@ -5,15 +5,16 @@ It seems like in the past few years it seems like there is always news of a wild
 
 - <a href='https://github.com/MixMaster1/U.S.-WildFires/blob/master/Forest%20Fires%20in%20the%20U.S.pdf'>
     Forest Fires in the U.S.pdf
-</a>
-: PDF file of google slide presentation
+</a>: PDF file of google slide presentation
+
 - <a href='https://github.com/MixMaster1/U.S.-WildFires/blob/master/Modeling%20and%20EDA.ipynb'>
     Modeling and EDA.ipynb
-</a>
-: Jupyter Notebook of all work 
+</a> Jupyter Notebook of all work 
+
 - <a href='https://github.com/MixMaster1/U.S.-WildFires/blob/master/README.md'>
     README.md
 </a>
+
 - <a href='https://github.com/MixMaster1/U.S.-WildFires/blob/master/requirements.txt'>
     requirements.txt
 </a>: These are the packages that were in my enviroment when was creating this analysis. Use this file to create a virtual enviroment in order to run this notebook.
