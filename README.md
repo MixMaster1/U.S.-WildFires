@@ -4,10 +4,9 @@ It seems like in the past few years it seems like there is always news of a wild
 # Repo Navigation
 
 - <a href='https://github.com/MixMaster1/U.S.-WildFires/blob/master/Forest%20Fires%20in%20the%20U.S.pdf'>
-    Forest Fires in the U.S.pdf
-</a>: PDF file of google slide presentation
+    Forest Fires in the U.S.pdf</a>: PDF file of google slide presentation.
 - <a href='https://github.com/MixMaster1/U.S.-WildFires/blob/master/Modeling%20and%20EDA.ipynb'>
-    Modeling and EDA.ipynb</a>: Jupyter Notebook of all work 
+    Modeling and EDA.ipynb</a>: Jupyter Notebook of all work. 
 - <a href='https://github.com/MixMaster1/U.S.-WildFires/blob/master/README.md'>
     README.md</a>
 - <a href='https://github.com/MixMaster1/U.S.-WildFires/blob/master/requirements.txt'>
@@ -40,5 +39,6 @@ I followed the same steps as all my previous models but then evaluated how well 
 
 # Conclusion
 My RandomForest was my best performing model with a precision score of a .57 and is a 28 percent increase in precision compared to the baseline. Models can definitely help the case of figuring out what may have caused a fire providing location and time the fires started and stopped. There is more work to get a better scoring with my models. The use of machine learning can help minize the cost a company can waste on highering investigators to find out what caused a fire and narrow where to focus resources. 
+
 # Next Steps
  I want to run a nueral network model to see if it can do a better job classifying my target variable. I want to see if can sample more data for other causes of fires that is less than lightining to see if having more observations can help improve my scores. The use of PCA (principal component analysis) maybe useful here to reduce dimesionality. I want to see if using that can help improve my precision scores across my models. I want to see if the use of clustering may also be useful to improve my scores. I will see if I can just change my target varaiable to human causes and nature causes of wildfire and see if that will help improve my scores which would still be useful information for insurers to see if it is worth investigating. Create an ineractive map for users can see previous fires and information about those fires. Additionaly, I need to build my own grid search since the sklearn version of grid search was not getting along well with the XGBoostClassifier.
